@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 264632162774580932}
   - component: {fileID: 210948639562192902}
   - component: {fileID: 6816521186365102095}
-  m_Layer: 0
-  m_Name: Character_D_Plain_Leather
+  - component: {fileID: 1986920684}
+  m_Layer: 13
+  m_Name: Viking Axe Shield
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -27,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 268308639448928922}
   m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
   m_LocalPosition: {x: 44.42, y: 18.45, z: 119.1}
-  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 266594215630742438}
   - {fileID: 265075811517060934}
@@ -66,6 +67,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.46, y: 1.85, z: 0.42}
   m_Center: {x: 0, y: 0.92, z: 0.03}
+--- !u!114 &1986920684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268308639448928922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a387ee524b420f34d96484a59f83fc01, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactAction: 0
+  displayName: Freerik Stigand
 --- !u!1 &268488144461262550
 GameObject:
   m_ObjectHideFlags: 0
@@ -90,8 +105,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268488144461262550}
-  m_LocalRotation: {x: -0.07018896, y: -0, z: -0, w: 0.99753374}
-  m_LocalPosition: {x: 0.00001876831, y: 1.3519009, z: -0.03242933}
+  m_LocalRotation: {x: -0.07512296, y: 0.056199234, z: -0.004902155, w: 0.9955773}
+  m_LocalPosition: {x: -0.0017700195, y: 1.3150482, z: -0.03967285}
   m_LocalScale: {x: 1, y: 0.9999999, z: 0.9999999}
   m_Children: []
   m_Father: {fileID: 264632162774580932}
@@ -172,8 +187,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 268981474501073270}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.00001876831, y: 1.0068462, z: 0.016370108}
+  m_LocalRotation: {x: -0.031761277, y: 0.07485586, z: -0.009118179, w: 0.99664676}
+  m_LocalPosition: {x: -0.000061035156, y: 0.97249603, z: 0.024230957}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 264632162774580932}
