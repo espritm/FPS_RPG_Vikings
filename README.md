@@ -1,1 +1,1 @@
-A RPG FPS mobile game I am developing with Unity.
+A FPS RPG mobile game I am developing with Unity.
