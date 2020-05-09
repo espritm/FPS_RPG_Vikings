@@ -1,0 +1,3 @@
+ToTalk = pour parler
+ToLoot = pour ramasser
+ToOpen = pour ouvrir

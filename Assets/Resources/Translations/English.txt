@@ -1,0 +1,3 @@
+ToTalk = to talk
+ToLoot = to loot
+ToOpen = to open
