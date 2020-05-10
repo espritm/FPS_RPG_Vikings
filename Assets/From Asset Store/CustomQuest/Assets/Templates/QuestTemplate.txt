@@ -1,0 +1,44 @@
+using UnityEngine;
+using System.Collections;
+
+public class QUESTCLASS_NAME_HERE : Quest {
+
+	public override void Start()
+	{
+		base.Start();
+#if UNITY_EDITOR
+        isCustomScript = true;
+#endif
+	}
+
+	public override void EditorStart()
+	{
+		base.EditorStart();
+
+		questName = "QUEST_NAME_HERE";
+
+		description = "DESCRIPTION_HERE";
+
+		description = description.Replace("NEWLINE", "\n");
+
+		toolTip = "TOOLTIP_HERE";
+
+		toolTip = toolTip.Replace("NEWLINE", "\n");
+
+		startAvailability = START_AVAILABILTY_HERE;
+
+		autoComplete = AUTO_COMPLETE_HERE;
+
+		repeatable = REPEATABLE_HERE;
+
+#if UNITY_EDITOR
+        isCustomScript = true;
+#endif
+	}
+
+	public override void Update()
+	{
+		base.Update();
+	}
+
+}

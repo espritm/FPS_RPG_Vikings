@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: c7c4f0b4a00536341a8171d7e4308885
+timeCreated: 1496146175
+licenseType: Store
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - selectedQuest: {instanceID: 0}
+  - selectedCriteria: {instanceID: 0}
+  - selectedReward: {instanceID: 0}
+  - nodeToDelete: {instanceID: 0}
+  - testGUISkin: {fileID: 11400000, guid: aa26754ab6c6f1540814986d48656e0e, type: 2}
+  - background: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

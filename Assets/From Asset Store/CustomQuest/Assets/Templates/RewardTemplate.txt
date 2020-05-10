@@ -1,0 +1,26 @@
+using UnityEngine;
+using CustomQuest;
+
+public class REWARDCLASS_NAME_HERE : Reward{
+
+	public override void EditorStart()
+	{
+		base.EditorStart();
+		 
+#if UNITY_EDITOR
+        isCustomScript = true;
+#endif
+
+	    rewardName = "REWARD_NAME_HERE";
+
+		type = rewardType.TYPE_HERE;
+
+		amount = AMOUNT_HERE;
+	}
+
+	public override void Update()
+	{
+		base.Update();
+	}
+
+}

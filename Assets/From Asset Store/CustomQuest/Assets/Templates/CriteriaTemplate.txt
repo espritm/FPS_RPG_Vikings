@@ -1,0 +1,25 @@
+using UnityEngine;
+using CustomQuest;
+
+public class CRITERIACLASS_NAME_HERE : Criteria{
+
+	public override void EditorStart()
+	{
+		base.EditorStart();
+
+#if UNITY_EDITOR
+        isCustomScript = true;
+#endif
+	    criteriaName = "CRITERIA_NAME_HERE";
+
+		type = criteriaType.TYPE_HERE;
+
+		amount = CRITERIA_AMOUNT_HERE;
+	}
+
+	public override void Update()
+	{
+		base.Update();
+	}
+
+}

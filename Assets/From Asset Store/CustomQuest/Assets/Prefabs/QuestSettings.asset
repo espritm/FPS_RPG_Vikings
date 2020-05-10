@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 51077ccf7d9cec34abfbadabf37f3bb5, type: 3}
+  m_Name: QuestSettings
+  m_EditorClassIdentifier: 
+  prefabQuests:
+  - {fileID: 114359410852811610, guid: f5cb2a9cfa2501241ae4aa29db01974e, type: 3}
+  - {fileID: 114515986415425184, guid: 57588c7c2c0c43149ae86712c0da1d55, type: 3}
+  - {fileID: 114573808792942616, guid: 0af4c736c40eaf34e9939638ad111389, type: 3}
+  - {fileID: 114348980210468616, guid: b74e3b0356862bd44ab229e416b6700a, type: 3}
+  - {fileID: 114186887032033512, guid: f2134803f53e77042b139f058be166d0, type: 3}
+  - {fileID: 114123359049249808, guid: 4cb98a533f54b394aae6c378cfc583db, type: 3}
+  - {fileID: 6813606330879073844, guid: c1153070ad2b6ff40961fb83b0cb953d, type: 3}
+  - {fileID: 1870050380884180373, guid: 975239622ed74a6479e65ec74e77b9e5, type: 3}
+  prefabCriteria:
+  - {fileID: 114236166452576966, guid: 0db276636bf03c84396d4e02a4fe03f1, type: 3}
+  - {fileID: 114035731085237346, guid: 936051557118caf4fa212abe05d5cb94, type: 3}
+  - {fileID: 114913444258034188, guid: 0a81671cc1bc77044ad409c2be33a5da, type: 3}
+  prefabReward:
+  - {fileID: 114131829855204108, guid: d49dbd3c2b7d62c428231edc010a69af, type: 3}
+  - {fileID: 114812251313552144, guid: 5fe73dc45d45a0d4bbfce39f3dadadc2, type: 3}
+  questNodes: []
+  showQuestName: 1
+  showDescription: 0
+  showCriterias: 1
+  showRewards: 1
+  handInObjectPrefab: {fileID: 1665233643304216, guid: be5dc3b178707a647ac5abec8e70fae7,
+    type: 3}
+  criteriaSpawnPrefab: {fileID: 1682471611924234, guid: 5b4271db307204c49bf14f3aaa02d0c4,
+    type: 3}
+  questGiverPrefab: {fileID: 1809955584879774, guid: 1d1d31e28cef19c439cb538bc0390a91,
+    type: 3}
+  criteriaSpecificRewards: 1
+  optionalCriteriaSpecificRewards: 1
+  optional: 0
+  randomDragonGUISkin: {fileID: 11400000, guid: aa26754ab6c6f1540814986d48656e0e,
+    type: 2}
+--- !u!114 &114717036110188762
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5a5fda9c92af9340a907fbf36c8a69b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  leftEdge: {fileID: 0}
+  rightEdge: {fileID: 0}

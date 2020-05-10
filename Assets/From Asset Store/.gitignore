@@ -1,0 +1,8 @@
+#Ignore all assets downloaded from the store
+/*
+
+# Never ignore Asset Custom Quest
+!/CustomQuest*
+
+#Never ignore this .gitignore
+!.gitignore
